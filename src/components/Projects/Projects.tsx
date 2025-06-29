@@ -60,7 +60,7 @@ const projects = [
       <FaPhp />,
       <FaGit />,
     ],
-    link: "https://api.sarirniroo.ir",
+    link: "https://coffee.sarirniroo.ir",
   },
   {
     title: "وبسایت فروش پکیج دوره",
