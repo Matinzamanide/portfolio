@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@font-face {
+  font-family: vaziri;
+  src: url("assets/font/Vazir-Medium-FD-WOL.ttf");
+}
+*{
+  font-family: vaziri,sans-serif;
+  cursor: none;
+  scroll-behavior: smooth;
+  user-select: none;
+}
