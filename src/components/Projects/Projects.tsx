@@ -18,6 +18,18 @@ import { SiNextdotjs, SiTailwindcss, SiTypescript } from "react-icons/si";
 // اطلاعات پروژه‌ها
 const projects = [
   {
+    title: "فروشگاه پمپ و تجهیزات آبی",
+    image: "https://apika.ir/apitak/uploads/apika5678.png",
+    description: "یک فروشگاه آنلاین با قابلیت پرداخت و مدیریت سفارش‌ها.",
+    technologies: [
+      <FaReact />,
+      <SiTypescript />,
+      <SiTailwindcss />,
+      <FaGithub />,
+    ],
+    link: "https://apika.ir",
+  },
+  {
     title: "وب‌سایت فروشگاهی",
     image: "https://mobile.sarirniroo.ir/mobile-store.png",
     description: "یک فروشگاه آنلاین با قابلیت پرداخت و مدیریت سفارش‌ها.",
@@ -42,16 +54,16 @@ const projects = [
     ],
     link: "https://soulshelf.netlify.app",
   },
-  {
-    title: "پرینو",
-    image: "https://api.sarirniroo.ir/perino.png",
-    description: "یک وبسایت در حوزه ی سلامت زنان که دارای تقیم قاعدگی است",
-    technologies: [<FaReact />, <SiTailwindcss />, <FaJs />],
-    link: "https://coffee.sarirniroo.ir",
-  },
+  // {
+  //   title: "پرینو",
+  //   image: "https://api.sarirniroo.ir/perino.png",
+  //   description: "یک وبسایت در حوزه ی سلامت زنان که دارای تقیم قاعدگی است",
+  //   technologies: [<FaReact />, <SiTailwindcss />, <FaJs />],
+  //   link: "https://coffee.sarirniroo.ir",
+  // },
   {
     title: "وب‌سایت شرکتی",
-    image: "https://api.sarirniroo.ir/sarir-sample.png",
+    image: "https://apika.ir/apitak/uploads/sarir.niroodfpng.png",
     description: "یک وب‌سایت مدرن برای معرفی خدمات یک شرکت.",
     technologies: [
       <FaReact />,
@@ -60,7 +72,7 @@ const projects = [
       <FaPhp />,
       <FaGit />,
     ],
-    link: "https://coffee.sarirniroo.ir",
+    link: "https://sarirniroo.ir",
   },
   {
     title: "وبسایت فروش پکیج دوره",
